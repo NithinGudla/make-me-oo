@@ -26,3 +26,12 @@ He thought it'll be a good idea to convert this to Object Oriented Programming. 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
 - Try to articulate problems with Shivam's OOP solution. (Write it somewhere and share it with your trainer)
 - Fork the project and fix the design related problem with Shivam's OOP solution. Share that with your trainer too.
+
+
+Problems with the above solution : 
+
+1) The fields of Point class can be made final if it is known that the values won't change after the creation of Point object.
+
+2) The Point class has no behaviours.
+
+3) Instead of calculating the distance and direction in another class, we can have those methods in Point class itself so that we can achieve fewest elements.
